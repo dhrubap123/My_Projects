@@ -1,0 +1,29 @@
+.section1 button{
+    margin: 10px;
+}
+#binary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
+}
+#label2{
+    margin-top: 53px;
+}
+#change{
+    padding: 0px;
+    position: absolute;
+    top: 210px;
+    border-radius: 60px;
+    border: 1px solid white;
+}
