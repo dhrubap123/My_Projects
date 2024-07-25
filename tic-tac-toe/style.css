@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(209, 255, 188);
+}
+
+/* nav style  */
+nav{
+    display: flex;
+    align-items:center;
+    background-color: rgb(25, 165, 0);
+    color: rgb(224, 248, 140);
+    height: 6vw;
+    padding: 9px;
+    font-size: 3vw;
+    font-family: 'Climate Crisis', cursive;
+    z-index: 1;
+}
+nav span{
+    font-size: 2vw;
+    margin-left: 6px;
+    opacity: 0.5;
+}
+
+
+/* utility classes  */
+.box.bt-0{
+    border-top: 0;
+}
+.box.bb-0{
+    border-bottom: 0;
+}
+.box.br-0{
+    border-right: 0;
+}
+.box.bl-0{
+    border-left: 0;
+}
+
+/* main style  */
+
+
+main{
+    margin-top:3vw;
+    display: flex;
+    padding: 3vw;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    height: 400px;
+}
+
+.container{
+    margin-right: 13vw;
+    display: grid;
+    grid-template-columns: repeat(3, 9vw);
+    grid-template-rows: repeat(3, 9vw);
+}
+
+.box{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box:hover{
+    background: rgb(125, 247, 129);
+    cursor: pointer;
+}
+.box:active{
+    background: rgb(163, 250, 166);;
+}
+
+.box span{
+    font-size: 4vw;
+    font-family: 'Tilt Prism', cursive;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gI{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.gI button{
+    margin-left: 55px;
+    width: 80px;
+    background-color: greenyellow;
+    border-radius: 60px;
+    position: relative;
+    top: -20px;
+    opacity: 0;
+    transition: width 0.5s;
+}
+.gI button:hover{
+    background-color: rgb(197, 255, 111);
+    cursor: pointer;
+}
+.gI button:active{
+    background-color: rgb(229, 250, 196);
+}
+.info span{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 3vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+.info img{
+    width: 0px;
+    transition: width 0.5s;
+}

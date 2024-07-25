@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE GAME </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width:900px)" href="ph.css">
+
+</head>
+
+<body>
+    <nav>
+        TIC-TAC-TOE <span>[Let's Do Some Fun]</span>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="box bt-0 bl-0" onclick="mainGame1()"><span class="boxText" id="bt1"></span></div>
+            <div class="box bt-0" onclick="mainGame2()"><span class="boxText" id="bt2"></span></div>
+            <div class="box bt-0 br-0" onclick="mainGame3()"><span class="boxText" id="bt3"></span></div>
+            <div class="box bl-0" onclick="mainGame4()"><span class="boxText" id="bt4"></span></div>
+            <div class="box" onclick="mainGame5()"><span class="boxText" id="bt5"></span></div>
+            <div class="box br-0" onclick="mainGame6()"><span class="boxText" id="bt6"></span></div>
+            <div class="box bb-0 bl-0" onclick="mainGame7()"><span class="boxText" id="bt7"></span></div>
+            <div class="box bb-0" onclick="mainGame8()"><span class="boxText" id="bt8"></span></div>
+            <div class="box bb-0 br-0" onclick="mainGame9()"><span class="boxText" id="bt9"></span></div>
+        </div>
+        <div class="info">
+            <div class="gI">
+                <span class="gameInfo">TURN:</span><span id="turn">X</span>
+                <button onclick="reset()" id="btn">RESET</button>
+            </div>
+            <img src="./victory.webp" alt="" id="victory">
+        </div>
+    </main>
+</body>
+<script src="./app.js"></script>
+
+</html>

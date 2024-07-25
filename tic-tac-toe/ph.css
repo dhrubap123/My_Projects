@@ -1,0 +1,47 @@
+nav{
+    display: flex;
+    align-items:center;
+    background-color: rgb(25, 165, 0);
+    color: rgb(224, 248, 140);
+    height: 15vw;
+    padding: 9px;
+    font-size: 5vw;
+    font-family: 'Climate Crisis', cursive;
+    z-index: 1;
+}
+nav span{
+    font-size: 3vw;
+    margin-left: 20px;
+    opacity: 0.5;
+}
+main{
+    margin-top:9vw;
+    display: flex;
+    flex-direction:column;
+    padding: 9px;
+    align-items: center;
+    /* float: top; */
+    justify-content:flex-start;
+    /* background-color: aqua; */
+    height: 400px;
+}
+.info{
+    text-align: center;
+    margin-top:70px;
+}
+
+.container{
+    position: relative;
+    left: 23px;
+    /* margin-right: 13vw; */
+    display: grid;
+    grid-template-columns: repeat(3, 20vw);
+    grid-template-rows: repeat(3, 20vw);
+}
+
+.info span{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 9vw;
+    font-family: 'Courier New', Courier, monospace;
+}
